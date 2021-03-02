@@ -28,6 +28,8 @@
 [class*="col-"] {
     float: left;
     height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
  } 
 
 /* [class*="col-"].padding-0 {
@@ -368,5 +370,21 @@
     }
 }
 
+/* CORRECTIONS */
 
+#bg-color {
+    margin-top: 80px;
+}
 
+#bg-color img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+}
+
+h1,
+h2,
+h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
