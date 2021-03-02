@@ -57,7 +57,7 @@
 
 /* START FROM XS COLUMNS 0px 480px */
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .col-xs-12 {
         width: 100%;
     }
