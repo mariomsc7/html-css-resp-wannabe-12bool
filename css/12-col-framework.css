@@ -13,24 +13,22 @@
 /* .container {
     max-width: 1170px;
     margin: 0 auto;
-}
+} */
 
 .container::after {
     content: "";
     display: table;
     clear: both;
-} */
+} 
 
 /* COLUMNS ------------------------------------------------*/
 
 /* PADDING SETTINGS */
 
-/* [class*="col-"] {
+[class*="col-"] {
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* padding-top: 5px; 
- } */
+    height: 100%;
+ } 
 
 /* [class*="col-"].padding-0 {
     padding-left: 0;
